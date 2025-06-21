@@ -10,7 +10,7 @@ int main(void)
 
     printf("len   : %zu\n", ft_strlen(s));
     printf("strcpy: %s\n", ft_strcpy(buf, s));
-    // printf("strcmp: %d\n", ft_strcmp(s, buf));
+    printf("strcmp: %d\n", ft_strcmp(s, buf));
 
     // ssize_t n = ft_write(1, "write OK\n", 9);
     // printf("write→%zd bytes\n", n);

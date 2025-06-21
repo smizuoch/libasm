@@ -6,7 +6,7 @@ NASMFLAGS := -f elf64
 AR      := ar rcs
 RM      := rm -f
 
-ASM_SRC := ft_strlen.s ft_strcpy.s #ft_strcmp.s ft_write.s ft_read.s ft_strdup.s
+ASM_SRC := ft_strlen.s ft_strcpy.s ft_strcmp.s #ft_write.s ft_read.s ft_strdup.s
 OBJ     := $(ASM_SRC:.s=.o)
 
 TEST_BIN := a.out
